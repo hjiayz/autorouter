@@ -1,0 +1,28 @@
+{
+  "name": "autorouter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "author": "hjiayz",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "typetag": "^2.0.5",
+    "typetag-fn": "^1.0.2",
+    "typetag-rust": "^1.0.7"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hjiayz/autorouter.git"
+  },
+  "keywords": [
+    "router"
+  ],
+  "bugs": {
+    "url": "https://github.com/hjiayz/autorouter/issues"
+  },
+  "homepage": "https://github.com/hjiayz/autorouter#readme",
+  "description": ""
+}
