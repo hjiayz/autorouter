@@ -44,6 +44,7 @@ class RouterList {
             return this;
         }
         this.get = (opt_tag) => lopt[opt_tag];
+        this.get_type = (type, isview) => lcompid[jsonify(type)][isview | 0]
         this.update = () => {
             if (!changed) return;
             lresult = {};
