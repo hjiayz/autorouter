@@ -44,8 +44,8 @@ class RouterList {
             return this;
         }
         this.get = (opt_tag) => lopt[opt_tag];
-        this.get_input = (type, isview) => lcompid[jsonify(type)][0];
-        this.get_view = (type, isview) => lcompid[jsonify(type)][1];
+        this.get_input = (type) => lcompid[jsonify(type)][0];
+        this.get_view = (type) => lcompid[jsonify(type)][1];
         this.update = () => {
             if (!changed) return;
             lresult = {};
